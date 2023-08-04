@@ -1,0 +1,16 @@
+service_id,service_charges,service_name
+SEC-7101,1200,Oil-Filter Changing
+SEC-7102,1000,Wiper blades replacement
+SEC-7103,800,Replace air filter
+SEC-7104,2000,Scheduled maintence
+SEC-7105,1200,New tires
+SEC-7106,500,Battery replacement
+SEC-7107,400,Brake work
+SEC-7108,1100,Antifreeze added
+SEC-7109,1800,Engine tune-up
+SEC-7110,750,Wheels aligned/balanced
+SEC-7111,700,Coolant system services
+SEC-7112,1000,washing 
+SEC-7113,3000,Full service
+SEC-7114,50000,CNG fitting
+SEC-7115,350,Headlight replacement

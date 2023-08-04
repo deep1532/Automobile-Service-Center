@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automobile Management System</title>
+</head>
+<body>
+    <center>
+    <h3>Insert record into Customer</h3>
+    <hr>
+    <form method="POST">
+        {% csrf_token %}
+    <table border="1">
+        <tr>
+            <td>Custometr ID</td>
+            <td><input type="text" placeholder="Enter Customer ID" name="customer_id"></td>
+        </tr>
+
+        <tr>
+            <td>Custometr Name</td>
+            <td><input type="text" placeholder="Enter Customer Name" name="customer_name"></td>
+        </tr>
+
+        <tr>
+            <td>Custometr Address</td>
+            <td><input type="text" placeholder="Enter Customer Address" name="customer_address"></td>
+        </tr>
+
+        <tr>
+            <td>Custometr email</td>
+            <td><input type="text" placeholder="Enter email" name="email"></td>
+        </tr>
+
+        <tr>
+            <td><input type="Submit" value="Insert"></td>
+            <td>{% if messages %}
+                {% for mess in messages %}
+                <b style="color: green"> {{mess}} </b>  
+                {% endfor %}
+                {% endif %}
+            </td>
+        </tr>
+
+    </table>
+
+    <a href="http://127.0.0.1:8000/">Home</a>
+
+
+</form>
+</center>
+</body>
+</html>
